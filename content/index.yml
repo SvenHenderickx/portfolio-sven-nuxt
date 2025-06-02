@@ -8,25 +8,25 @@ hero:
     - label: "Use this template"
       to: https://github.com/nuxt-ui-pro/portfolio
       color: "neutral"
-  images:
-    - src: https://picsum.photos/468/468?random=1
-      alt: Random Image 1
-    - src: https://picsum.photos/468/468?random=2
-      alt: Random Image 2
-    - src: https://picsum.photos/468/468?random=3
-      alt: Random Image 3
-    - src: https://picsum.photos/468/468?random=4
-      alt: Random Image 4
-    - src: https://picsum.photos/468/468?random=5
-      alt: Random Image 5
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=7
-      alt: Random Image 7
-    - src: https://picsum.photos/468/468?random=8
-      alt: Random Image 8
+  # images:
+  #   - src: https://picsum.photos/468/468?random=1
+  #     alt: Random Image 1
+  #   - src: https://picsum.photos/468/468?random=2
+  #     alt: Random Image 2
+  #   - src: https://picsum.photos/468/468?random=3
+  #     alt: Random Image 3
+  #   - src: https://picsum.photos/468/468?random=4
+  #     alt: Random Image 4
+  #   - src: https://picsum.photos/468/468?random=5
+  #     alt: Random Image 5
+  #   - src: https://picsum.photos/468/468?random=6
+  #     alt: Random Image 6
+  #   - src: https://picsum.photos/468/468?random=6
+  #     alt: Random Image 6
+  #   - src: https://picsum.photos/468/468?random=7
+  #     alt: Random Image 7
+  #   - src: https://picsum.photos/468/468?random=8
+  #     alt: Random Image 8
 about:
   title: "About Me"
   description: |

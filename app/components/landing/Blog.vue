@@ -6,7 +6,7 @@ defineProps<{
 }>()
 
 const { data: posts } = await useAsyncData('index-blogs', () =>
-  queryCollection('blog').order('date', 'DESC').limit(3).all()
+  queryCollection('blog').order('date', 'DESC').all()
 )
 if (!posts.value) {
   throw createError({ statusCode: 404, statusMessage: 'blogs posts not found', fatal: true })
@@ -23,6 +23,11 @@ if (!posts.value) {
       description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
+    <p> test </p>
+    <BlogCard v-for="(post, index) in posts"
+        :key="index"
+        :post="post">
+      </BlogCard>
     <UBlogPosts
       orientation="vertical"
       class="gap-4 lg:gap-y-4"
